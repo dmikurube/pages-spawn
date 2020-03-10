@@ -13,3 +13,10 @@ env RUBY_CONFIGURE_OPTS="--with-openssl-dir=/usr/local/opt/openssl" rbenv instal
 (gem install bundler)
 bundle install --path vendor/bundle
 ```
+
+Spawn a GitHub Pages instance
+------------------------------
+
+```
+bundle exec jekyll new ../some-new-pages
+```
